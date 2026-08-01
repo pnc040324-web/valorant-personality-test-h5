@@ -4,6 +4,12 @@ import { NextRequest, NextResponse } from "next/server";
 const cookieName = "valorant_admin";
 const tokenFor = (secret:string) => createHash("sha256").update(secret).digest("hex");
 
+export const runtime = "nodejs";
+
+export function GET(request: NextRequest) {
+  return NextResponse.redirect(new URL("/admin/login", request.url), { status: 307 });
+}
+
 /** 管理口令只在服务端校验，浏览器仅保存不可读的 HttpOnly 哈希 Cookie。 */
 export async function POST(request: NextRequest) {
   const form = await request.formData();
