@@ -10,5 +10,5 @@ function resolveSource(): TrafficSource {
   return stored === "douyin" || stored === "wechat" || stored === "friend" || stored === "share" ? stored : "direct";
 }
 /** 埋点失败不应阻塞用户完成测试。 */
-export function track(type: EventName, payload: Record<string, unknown> = {}) { if (typeof window === "undefined") return; const sessionId = getSessionId(); void fetch("/api/analytics", { method:"POST", headers:{"content-type":"application/json"}, keepalive:true, body:JSON.stringify({type,sessionId,payload:{...payload,source:resolveSource()}}) }).catch(() => undefined); }
+export function track(type: EventName, payload: Record<string, unknown> = {}) { if (typeof window === "undefined") return; const sessionId = getSessionId(); void fetch("/api/analytics", { method:"POST", headers:{"content-type":"application/json"}, keepalive:true, body:JSON.stringify({type,sessionId,payload:{...payload,source:resolveSource()}}) }).then((response) => { if (!response.ok) console.warn("[analytics] event was not persisted", { type, status:response.status }); }).catch((error) => console.warn("[analytics] request failed", { type, error })); }
 function getSessionId() { const key="va-session"; const current=sessionStorage.getItem(key); if(current) return current; const id=crypto.randomUUID(); sessionStorage.setItem(key,id); return id; }
