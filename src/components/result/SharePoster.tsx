@@ -30,15 +30,6 @@ async function waitForImage(image: HTMLImageElement) {
   }
 }
 
-function blobToDataUrl(blob: Blob) {
-  return new Promise<string>((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onerror = () => reject(new Error("图片编码失败"));
-    reader.onload = () => resolve(String(reader.result));
-    reader.readAsDataURL(blob);
-  });
-}
-
 function dataUrlToBlob(dataUrl: string) {
   const [header, base64] = dataUrl.split(",");
   if (!header || !base64) throw new Error("PNG 数据无效");
@@ -66,23 +57,92 @@ async function imageToDataUrl(image: HTMLImageElement) {
   if (!response.ok) throw new Error("图片资源读取失败");
   const blob = await response.blob();
   if (blob.size === 0) throw new Error("图片资源为空");
-  return blobToDataUrl(blob);
+  const objectUrl = URL.createObjectURL(blob);
+
+  try {
+    const embeddedImage = new Image();
+    embeddedImage.crossOrigin = "anonymous";
+    embeddedImage.src = objectUrl;
+    await waitForImage(embeddedImage);
+
+    // iOS WeChat can display WebP in the page but omit it from SVG foreignObject.
+    // Re-encoding as PNG makes the embedded asset drawable by both Canvas and
+    // html-to-image's clone path.
+    const maxDimension = 1024;
+    const scale = Math.min(1, maxDimension / Math.max(embeddedImage.naturalWidth, embeddedImage.naturalHeight));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(embeddedImage.naturalWidth * scale));
+    canvas.height = Math.max(1, Math.round(embeddedImage.naturalHeight * scale));
+    const context = canvas.getContext("2d");
+    if (!context) throw new Error("图片画布不可用");
+    context.drawImage(embeddedImage, 0, 0, canvas.width, canvas.height);
+    const pngDataUrl = canvas.toDataURL("image/png");
+    if (pngDataUrl.length < MIN_PNG_SIZE) throw new Error("头像转换失败");
+    return pngDataUrl;
+  } finally {
+    URL.revokeObjectURL(objectUrl);
+  }
 }
 
 async function inlinePosterImages(node: HTMLDivElement) {
   const images = [...node.querySelectorAll("img")];
   const originals = images.map((image) => image.getAttribute("src"));
+  const imageDataUrls = await Promise.all(images.map(imageToDataUrl));
 
   await Promise.all(images.map(async (image, index) => {
-    const dataUrl = await imageToDataUrl(image);
+    const dataUrl = imageDataUrls[index];
     image.setAttribute("src", dataUrl);
     await waitForImage(image);
     originals[index] = originals[index] ?? "";
   }));
 
-  return () => {
-    images.forEach((image, index) => image.setAttribute("src", originals[index] ?? ""));
+  return {
+    imageDataUrls,
+    hideImages: () => images.forEach((image) => { image.style.visibility = "hidden"; }),
+    restoreImages: () => images.forEach((image, index) => {
+      image.setAttribute("src", originals[index] ?? "");
+      image.style.visibility = "";
+    }),
   };
+}
+
+function getRelativeRect(container: HTMLElement, element: HTMLElement) {
+  const containerRect = container.getBoundingClientRect();
+  const elementRect = element.getBoundingClientRect();
+  return {
+    x: elementRect.left - containerRect.left,
+    y: elementRect.top - containerRect.top,
+    width: elementRect.width,
+    height: elementRect.height,
+  };
+}
+
+async function loadDataImage(dataUrl: string) {
+  const image = new Image();
+  image.crossOrigin = "anonymous";
+  image.src = dataUrl;
+  await waitForImage(image);
+  return image;
+}
+
+async function compositeAvatar(posterDataUrl: string, avatarDataUrl: string, avatarRect: ReturnType<typeof getRelativeRect>, posterWidth: number) {
+  if (!avatarDataUrl.startsWith("data:image/png;base64,") || avatarDataUrl.length < MIN_PNG_SIZE) {
+    throw new Error("头像资源加载失败");
+  }
+
+  const [posterImage, avatarImage] = await Promise.all([loadDataImage(posterDataUrl), loadDataImage(avatarDataUrl)]);
+  const canvas = document.createElement("canvas");
+  canvas.width = posterImage.naturalWidth;
+  canvas.height = posterImage.naturalHeight;
+  const context = canvas.getContext("2d");
+  if (!context) throw new Error("海报画布不可用");
+
+  context.drawImage(posterImage, 0, 0);
+  const scale = canvas.width / posterWidth;
+  context.drawImage(avatarImage, avatarRect.x * scale, avatarRect.y * scale, avatarRect.width * scale, avatarRect.height * scale);
+  const merged = canvas.toDataURL("image/png");
+  if (merged.length < MIN_PNG_SIZE) throw new Error("海报头像合成失败");
+  return merged;
 }
 
 async function waitForPosterReady(node: HTMLDivElement) {
@@ -125,18 +185,24 @@ export function SharePoster({ result }: { result: MatchResult }) {
     setIsGenerating(true);
     setError("");
     try {
-      const restoreImages = await inlinePosterImages(poster);
+      const embeddedImages = await inlinePosterImages(poster);
       let dataUrl = "";
       try {
         await waitForPosterReady(poster);
+        const avatar = poster.querySelector("img");
+        if (!avatar) throw new Error("未找到头像资源");
+        const avatarRect = getRelativeRect(poster, avatar);
+        embeddedImages.hideImages();
         dataUrl = await toPng(poster, {
-          cacheBust: false,
+          cacheBust: true,
+          skipFonts: false,
           pixelRatio: 2,
           backgroundColor: "#0f1923",
           fontEmbedCSS: `* { font-family: ${posterFont}; }`,
         });
+        dataUrl = await compositeAvatar(dataUrl, embeddedImages.imageDataUrls[0], avatarRect, poster.clientWidth);
       } finally {
-        restoreImages();
+        embeddedImages.restoreImages();
       }
 
       const pngBlob = dataUrlToBlob(dataUrl);
