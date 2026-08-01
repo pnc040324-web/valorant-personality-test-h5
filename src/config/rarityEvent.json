@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "eventName": "隐藏特工挑战",
+  "rareAgents": [
+    { "agent": "omen", "rarity": "SSR", "chance": 0.8, "rewardEnabled": false }
+  ]
+}

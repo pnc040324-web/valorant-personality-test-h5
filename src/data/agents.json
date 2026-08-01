@@ -1,0 +1,1369 @@
+[
+  {
+    "id": "jett",
+    "name": "捷风",
+    "englishId": "jett",
+    "role": "决斗",
+    "popularity": 10,
+    "weight": 1.118,
+    "avatar": "/avatars/jett.webp",
+    "qAvatar": "/images/agents/jett.webp",
+    "keywords": [
+      "果断",
+      "灵动"
+    ],
+    "strength": "敢打敢收，残局有风。",
+    "weakness": "容易追猎上头。",
+    "proJoke": "Let's Go，残局不用喊暂停。",
+    "rankJoke": "你不是在送，是在给队友创造高光。",
+    "shareText": "风会带你去该去的点位。",
+    "rarity": "SSR",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是捷风：破点主角",
+    "teamComment": "队友眼里的捷风：你不是在送，是在给队友创造高光。",
+    "displayName": "捷风",
+    "nickname": "风妹",
+    "themeStyle": "riot-core",
+    "englishName": "Jett",
+    "tags": [
+      "aggressive",
+      "clutch",
+      "solo"
+    ],
+    "hotWords": [
+      "风妹",
+      "果断",
+      "灵动",
+      "你不是在送，是在给队友创造高光。"
+    ],
+    "personalityWeights": {
+      "aggressive": 10,
+      "aim": 8,
+      "chaos": 4,
+      "mindgame": 4,
+      "information": 3,
+      "control": 3,
+      "support": 1,
+      "lurk": 3
+    }
+  },
+  {
+    "id": "reyna",
+    "name": "芮娜",
+    "englishId": "reyna",
+    "role": "决斗",
+    "popularity": 9,
+    "weight": 0.927,
+    "avatar": "/avatars/reyna.webp",
+    "qAvatar": "/images/agents/reyna.webp",
+    "keywords": [
+      "自信",
+      "侵略"
+    ],
+    "strength": "单挑压迫感拉满。",
+    "weakness": "队友一倒就容易躯体化。",
+    "proJoke": "不是我C，大哥你们太坑了。",
+    "rankJoke": "吃到魂球才是真正的经济局。",
+    "shareText": "她不需要许可，只需要一个首杀。",
+    "rarity": "SSR",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是芮娜：破点主角",
+    "teamComment": "队友眼里的芮娜：吃到魂球才是真正的经济局。",
+    "displayName": "芮娜",
+    "nickname": "女王",
+    "themeStyle": "riot-core",
+    "englishName": "Reyna",
+    "tags": [
+      "aggressive",
+      "solo",
+      "clutch"
+    ],
+    "hotWords": [
+      "女王",
+      "自信",
+      "侵略",
+      "吃到魂球才是真正的经济局。"
+    ],
+    "personalityWeights": {
+      "aggressive": 9,
+      "aim": 9,
+      "chaos": 4,
+      "mindgame": 5,
+      "information": 3,
+      "control": 2,
+      "support": 1,
+      "lurk": 4
+    }
+  },
+  {
+    "id": "raze",
+    "name": "雷兹",
+    "englishId": "raze",
+    "role": "决斗",
+    "popularity": 8,
+    "weight": 2.223,
+    "avatar": "/avatars/raze.webp",
+    "qAvatar": "/images/agents/raze.webp",
+    "keywords": [
+      "热情",
+      "爆发"
+    ],
+    "strength": "破点像拆迁队。",
+    "weakness": "技能空了还会硬冲。",
+    "proJoke": "小肥指挥交通，你负责清场。",
+    "rankJoke": "手雷没炸到人但气势到了。",
+    "shareText": "用爆炸给沉闷对局一点颜色。",
+    "rarity": "SR",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是雷兹：破点主角",
+    "teamComment": "队友眼里的雷兹：手雷没炸到人但气势到了。",
+    "displayName": "雷兹",
+    "nickname": "炸弹妹",
+    "themeStyle": "riot-core",
+    "englishName": "Raze",
+    "tags": [
+      "aggressive",
+      "chaos"
+    ],
+    "hotWords": [
+      "炸弹妹",
+      "热情",
+      "爆发",
+      "手雷没炸到人但气势到了。"
+    ],
+    "personalityWeights": {
+      "aggressive": 8,
+      "aim": 7,
+      "chaos": 10,
+      "mindgame": 3,
+      "information": 2,
+      "control": 3,
+      "support": 2,
+      "lurk": 2
+    }
+  },
+  {
+    "id": "yoru",
+    "name": "夜露",
+    "englishId": "yoru",
+    "role": "决斗",
+    "popularity": 6,
+    "weight": 0.618,
+    "avatar": "/avatars/yoru.webp",
+    "qAvatar": "/images/agents/yoru.webp",
+    "keywords": [
+      "诡计",
+      "独立"
+    ],
+    "strength": "脑回路总有意外入口。",
+    "weakness": "科研局偶尔变观战局。",
+    "proJoke": "留一手？你直接留了一个平行宇宙。",
+    "rankJoke": "分身在挨骂，本体在绕后。",
+    "shareText": "别人走正门，你从剧本外出现。",
+    "rarity": "R",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是夜露：破点主角",
+    "teamComment": "队友眼里的夜露：分身在挨骂，本体在绕后。",
+    "displayName": "夜露",
+    "nickname": "科研哥",
+    "themeStyle": "riot-core",
+    "englishName": "Yoru",
+    "tags": [
+      "mindgame",
+      "solo"
+    ],
+    "hotWords": [
+      "科研哥",
+      "诡计",
+      "独立",
+      "分身在挨骂，本体在绕后。"
+    ],
+    "personalityWeights": {
+      "aggressive": 6,
+      "aim": 7,
+      "chaos": 5,
+      "mindgame": 10,
+      "information": 6,
+      "control": 4,
+      "support": 1,
+      "lurk": 9
+    }
+  },
+  {
+    "id": "neon",
+    "name": "霓虹",
+    "englishId": "neon",
+    "role": "决斗",
+    "popularity": 6,
+    "weight": 0.825,
+    "avatar": "/avatars/neon.webp",
+    "qAvatar": "/images/agents/neon.webp",
+    "keywords": [
+      "速度",
+      "冲劲"
+    ],
+    "strength": "抢空间像开了加速器。",
+    "weakness": "滑铲进包点后忘了刹车。",
+    "proJoke": "再别康桥，你这速度都到下一张图了。",
+    "rankJoke": "那边有人？你已经贴脸了。",
+    "shareText": "世界慢半拍，你刚好领先一拍。",
+    "rarity": "R",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是霓虹：破点主角",
+    "teamComment": "队友眼里的霓虹：那边有人？你已经贴脸了。",
+    "displayName": "霓虹",
+    "nickname": "闪电侠",
+    "themeStyle": "riot-core",
+    "englishName": "Neon",
+    "tags": [
+      "aggressive"
+    ],
+    "hotWords": [
+      "闪电侠",
+      "速度",
+      "冲劲",
+      "那边有人？你已经贴脸了。"
+    ],
+    "personalityWeights": {
+      "aggressive": 9,
+      "aim": 7,
+      "chaos": 6,
+      "mindgame": 3,
+      "information": 3,
+      "control": 3,
+      "support": 1,
+      "lurk": 2
+    }
+  },
+  {
+    "id": "iso",
+    "name": "壹决",
+    "englishId": "iso",
+    "role": "决斗",
+    "popularity": 5,
+    "weight": 0.73,
+    "avatar": "/avatars/iso.webp",
+    "qAvatar": "/images/agents/iso.webp",
+    "keywords": [
+      "专注",
+      "冷静"
+    ],
+    "strength": "关键一枪稳定得离谱。",
+    "weakness": "爱把普通回合打成单挑仪式。",
+    "proJoke": "站狼，不如站进你的领域。",
+    "rankJoke": "护盾一开，队友开始喊你爹。",
+    "shareText": "子弹会告诉你，谁才是最终答案。",
+    "rarity": "R",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是壹决：破点主角",
+    "teamComment": "队友眼里的壹决：护盾一开，队友开始喊你爹。",
+    "displayName": "壹决",
+    "nickname": "决斗场主",
+    "themeStyle": "riot-core",
+    "englishName": "Iso",
+    "tags": [
+      "aggressive",
+      "clutch"
+    ],
+    "hotWords": [
+      "决斗场主",
+      "专注",
+      "冷静",
+      "护盾一开，队友开始喊你爹。"
+    ],
+    "personalityWeights": {
+      "aggressive": 8,
+      "aim": 10,
+      "chaos": 3,
+      "mindgame": 5,
+      "information": 3,
+      "control": 3,
+      "support": 1,
+      "lurk": 4
+    }
+  },
+  {
+    "id": "phoenix",
+    "name": "不死鸟",
+    "englishId": "phoenix",
+    "role": "决斗",
+    "popularity": 6,
+    "weight": 0.718,
+    "avatar": "/avatars/phoenix.webp",
+    "qAvatar": "/images/agents/phoenix.webp",
+    "keywords": [
+      "热血",
+      "担当"
+    ],
+    "strength": "永远愿意第一个探路。",
+    "weakness": "闪到队友时嘴比技能快。",
+    "proJoke": "你们的王回来了，顺便把自己烧了。",
+    "rankJoke": "大招回城，信息留在前线。",
+    "shareText": "火焰熄灭前，胜负还没落定。",
+    "rarity": "R",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是不死鸟：破点主角",
+    "teamComment": "队友眼里的不死鸟：大招回城，信息留在前线。",
+    "displayName": "不死鸟",
+    "nickname": "火男",
+    "themeStyle": "riot-core",
+    "englishName": "Phoenix",
+    "tags": [
+      "aggressive",
+      "guardian"
+    ],
+    "hotWords": [
+      "火男",
+      "热血",
+      "担当",
+      "大招回城，信息留在前线。"
+    ],
+    "personalityWeights": {
+      "aggressive": 9,
+      "aim": 8,
+      "chaos": 5,
+      "mindgame": 3,
+      "information": 3,
+      "control": 2,
+      "support": 4,
+      "lurk": 2
+    }
+  },
+  {
+    "id": "waylay",
+    "name": "幻棱",
+    "englishId": "waylay",
+    "role": "决斗",
+    "popularity": 4,
+    "weight": 0.421,
+    "avatar": "/avatars/waylay.webp",
+    "qAvatar": "/images/agents/waylay.webp",
+    "keywords": [
+      "节奏",
+      "突破"
+    ],
+    "strength": "切入快且撤离果断。",
+    "weakness": "太相信第一直觉。",
+    "proJoke": "67 摆烂手势？你选择直接打回去。",
+    "rankJoke": "空岛卡位堵人，结果自己先迷路。",
+    "shareText": "出手的瞬间，局势已经改写。",
+    "rarity": "R",
+    "title": "破点主角",
+    "shareTitle": "我的本命特工是维斯：破点主角",
+    "teamComment": "队友眼里的维斯：空岛卡位堵人，结果自己先迷路。",
+    "displayName": "幻棱",
+    "nickname": "幻棱",
+    "themeStyle": "riot-core",
+    "englishName": "Waylay",
+    "tags": [
+      "aggressive",
+      "mindgame"
+    ],
+    "hotWords": [
+      "幻棱",
+      "节奏",
+      "突破",
+      "空岛卡位堵人，结果自己先迷路。"
+    ],
+    "personalityWeights": {
+      "aggressive": 7,
+      "aim": 7,
+      "chaos": 4,
+      "mindgame": 6,
+      "information": 4,
+      "control": 4,
+      "support": 2,
+      "lurk": 6
+    }
+  },
+  {
+    "id": "sova",
+    "name": "猎枭",
+    "englishId": "sova",
+    "role": "先锋",
+    "popularity": 8,
+    "weight": 0.295,
+    "avatar": "/avatars/sova.webp",
+    "qAvatar": "/images/agents/sova.webp",
+    "keywords": [
+      "洞察",
+      "理性"
+    ],
+    "strength": "信息永远比情绪先到。",
+    "weakness": "总想一箭解决所有问题。",
+    "proJoke": "秦王绕柱，你用侦测箭绕全图。",
+    "rankJoke": "这箭是给队友看的，不是给墙看的。",
+    "shareText": "你看见的，别人还来不及害怕。",
+    "rarity": "SR",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是猎枭：开团雷达",
+    "teamComment": "队友眼里的猎枭：这箭是给队友看的，不是给墙看的。",
+    "displayName": "猎枭",
+    "nickname": "箭神",
+    "themeStyle": "riot-core",
+    "englishName": "Sova",
+    "tags": [
+      "intel",
+      "leader"
+    ],
+    "hotWords": [
+      "箭神",
+      "洞察",
+      "理性",
+      "这箭是给队友看的，不是给墙看的。"
+    ],
+    "personalityWeights": {
+      "aggressive": 4,
+      "aim": 7,
+      "chaos": 2,
+      "mindgame": 6,
+      "information": 10,
+      "control": 5,
+      "support": 7,
+      "lurk": 5
+    }
+  },
+  {
+    "id": "fade",
+    "name": "黑梦",
+    "englishId": "fade",
+    "role": "先锋",
+    "popularity": 8,
+    "weight": 0.308,
+    "avatar": "/avatars/fade.webp",
+    "qAvatar": "/images/agents/fade.webp",
+    "keywords": [
+      "直觉",
+      "压迫"
+    ],
+    "strength": "读人像开了透视。",
+    "weakness": "抓到痕迹就追猎上头。",
+    "proJoke": "你不是喜欢躲，是在等别人犯错。",
+    "rankJoke": "噩梦一挂，全队开始报点。",
+    "shareText": "恐惧会替你开路。",
+    "rarity": "SR",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是幽影：开团雷达",
+    "teamComment": "队友眼里的幽影：噩梦一挂，全队开始报点。",
+    "displayName": "黑梦",
+    "nickname": "读心人",
+    "themeStyle": "riot-core",
+    "englishName": "Fade",
+    "tags": [
+      "intel",
+      "mindgame"
+    ],
+    "hotWords": [
+      "读心人",
+      "直觉",
+      "压迫",
+      "噩梦一挂，全队开始报点。"
+    ],
+    "personalityWeights": {
+      "aggressive": 4,
+      "aim": 6,
+      "chaos": 5,
+      "mindgame": 8,
+      "information": 10,
+      "control": 5,
+      "support": 5,
+      "lurk": 7
+    }
+  },
+  {
+    "id": "gekko",
+    "name": "盖可",
+    "englishId": "gekko",
+    "role": "先锋",
+    "popularity": 7,
+    "weight": 0.448,
+    "avatar": "/avatars/gekko.webp",
+    "qAvatar": "/images/agents/gekko.webp",
+    "keywords": [
+      "友善",
+      "协作"
+    ],
+    "strength": "总能把队友哄到愿意冲。",
+    "weakness": "宠物比本人更有存在感。",
+    "proJoke": "球球/NATS 父子局，宠物先拿MVP。",
+    "rankJoke": "晕头一丢，队友终于敢进点。",
+    "shareText": "一个人很酷，一群小伙伴更酷。",
+    "rarity": "SR",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是盖可：开团雷达",
+    "teamComment": "队友眼里的盖可：晕头一丢，队友终于敢进点。",
+    "displayName": "盖可",
+    "nickname": "宠物训练师",
+    "themeStyle": "riot-core",
+    "englishName": "Gekko",
+    "tags": [
+      "intel",
+      "chaos",
+      "guardian"
+    ],
+    "hotWords": [
+      "宠物训练师",
+      "友善",
+      "协作",
+      "晕头一丢，队友终于敢进点。"
+    ],
+    "personalityWeights": {
+      "aggressive": 5,
+      "aim": 5,
+      "chaos": 8,
+      "mindgame": 4,
+      "information": 8,
+      "control": 4,
+      "support": 8,
+      "lurk": 3
+    }
+  },
+  {
+    "id": "kayo",
+    "name": "K/O",
+    "englishId": "kayo",
+    "role": "先锋",
+    "popularity": 5,
+    "weight": 0.319,
+    "avatar": "/avatars/kayo.webp",
+    "qAvatar": "/images/agents/kayo.webp",
+    "keywords": [
+      "纪律",
+      "执行"
+    ],
+    "strength": "反制能力让人绝望。",
+    "weakness": "沉默完队友也一起沉默。",
+    "proJoke": "Nahh，对面技能栏直接下班。",
+    "rankJoke": "压制到了，但枪法没压住。",
+    "shareText": "把变量归零，再把胜利拿走。",
+    "rarity": "R",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是K/O：开团雷达",
+    "teamComment": "队友眼里的K/O：压制到了，但枪法没压住。",
+    "displayName": "K/O",
+    "nickname": "机器人",
+    "themeStyle": "riot-core",
+    "englishName": "KAY/O",
+    "tags": [
+      "intel",
+      "leader"
+    ],
+    "hotWords": [
+      "机器人",
+      "纪律",
+      "执行",
+      "压制到了，但枪法没压住。"
+    ],
+    "personalityWeights": {
+      "aggressive": 6,
+      "aim": 7,
+      "chaos": 4,
+      "mindgame": 5,
+      "information": 9,
+      "control": 6,
+      "support": 6,
+      "lurk": 4
+    }
+  },
+  {
+    "id": "breach",
+    "name": "铁臂",
+    "englishId": "breach",
+    "role": "先锋",
+    "popularity": 4,
+    "weight": 0.374,
+    "avatar": "/avatars/breach.webp",
+    "qAvatar": "/images/agents/breach.webp",
+    "keywords": [
+      "强硬",
+      "组织"
+    ],
+    "strength": "开团从不犹豫。",
+    "weakness": "震到谁全凭缘分。",
+    "proJoke": "小肥指挥交通，你负责把路震平。",
+    "rankJoke": "耳膜没了，包点也该进了。",
+    "shareText": "沉默不是投降，是爆发前的震颤。",
+    "rarity": "R",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是斯凯：开团雷达",
+    "teamComment": "队友眼里的斯凯：耳膜没了，包点也该进了。",
+    "displayName": "铁臂",
+    "nickname": "震震哥",
+    "themeStyle": "riot-core",
+    "englishName": "Breach",
+    "tags": [
+      "leader",
+      "aggressive"
+    ],
+    "hotWords": [
+      "震震哥",
+      "强硬",
+      "组织",
+      "耳膜没了，包点也该进了。"
+    ],
+    "personalityWeights": {
+      "aggressive": 6,
+      "aim": 5,
+      "chaos": 7,
+      "mindgame": 4,
+      "information": 7,
+      "control": 6,
+      "support": 7,
+      "lurk": 3
+    }
+  },
+  {
+    "id": "tejo",
+    "name": "钛狐",
+    "englishId": "tejo",
+    "role": "先锋",
+    "popularity": 4,
+    "weight": 0.33,
+    "avatar": "/avatars/tejo.webp",
+    "qAvatar": "/images/agents/tejo.webp",
+    "keywords": [
+      "规划",
+      "火力"
+    ],
+    "strength": "远程支援精准克制。",
+    "weakness": "爱把排位当战术板。",
+    "proJoke": "科研局开会五分钟，回合只剩十秒。",
+    "rankJoke": "导弹到位，队友还在买枪。",
+    "shareText": "一切尽在计算之中，除了队友。",
+    "rarity": "R",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是钛狐：开团雷达",
+    "teamComment": "队友眼里的钛狐：导弹到位，队友还在买枪。",
+    "displayName": "钛狐",
+    "nickname": "导弹教练",
+    "themeStyle": "riot-core",
+    "englishName": "Tejo",
+    "tags": [
+      "leader",
+      "intel"
+    ],
+    "hotWords": [
+      "导弹教练",
+      "规划",
+      "火力",
+      "导弹到位，队友还在买枪。"
+    ],
+    "personalityWeights": {
+      "aggressive": 4,
+      "aim": 5,
+      "chaos": 7,
+      "mindgame": 5,
+      "information": 9,
+      "control": 8,
+      "support": 7,
+      "lurk": 4
+    }
+  },
+  {
+    "id": "viper",
+    "name": "蝰蛇",
+    "englishId": "viper",
+    "role": "控场",
+    "popularity": 8,
+    "weight": 0.366,
+    "avatar": "/avatars/viper.webp",
+    "qAvatar": "/images/agents/viper.webp",
+    "keywords": [
+      "掌控",
+      "耐心"
+    ],
+    "strength": "残局节奏感无人能及。",
+    "weakness": "毒幕落下后话也少了。",
+    "proJoke": "止痛胶给别人，你只留一手毒。",
+    "rankJoke": "别急，毒还没散。",
+    "shareText": "优雅地封锁每一条退路。",
+    "rarity": "SR",
+    "title": "暗影操盘手",
+    "shareTitle": "我的本命特工是蝰蛇：暗影操盘手",
+    "teamComment": "队友眼里的蝰蛇：别急，毒还没散。",
+    "displayName": "蝰蛇",
+    "nickname": "毒妈",
+    "themeStyle": "riot-core",
+    "englishName": "Viper",
+    "tags": [
+      "control",
+      "mindgame"
+    ],
+    "hotWords": [
+      "毒妈",
+      "掌控",
+      "耐心",
+      "别急，毒还没散。"
+    ],
+    "personalityWeights": {
+      "aggressive": 3,
+      "aim": 5,
+      "chaos": 3,
+      "mindgame": 8,
+      "information": 6,
+      "control": 10,
+      "support": 5,
+      "lurk": 7
+    }
+  },
+  {
+    "id": "omen",
+    "name": "幽影",
+    "englishId": "omen",
+    "role": "控场",
+    "popularity": 9,
+    "weight": 0.44,
+    "avatar": "/avatars/omen.webp",
+    "qAvatar": "/images/agents/omen.webp",
+    "keywords": [
+      "神秘",
+      "布局"
+    ],
+    "strength": "永远在对手意想不到的地方。",
+    "weakness": "传送有时像抽陀螺皮肤转盘。",
+    "proJoke": "鞭尸嘲讽？你只会在烟里微笑。",
+    "rankJoke": "烟一封，叙利亚吵架局都安静了。",
+    "shareText": "你不是喜欢躲。你只是喜欢让对面先犯错。",
+    "rarity": "SSR",
+    "title": "暗影操盘手",
+    "shareTitle": "你解锁了幽影 SSR 隐藏人格：暗影操盘手",
+    "teamComment": "不开麦，但残局总出现。",
+    "displayName": "幽影",
+    "nickname": "烟中人",
+    "themeStyle": "shadow-rare",
+    "englishName": "Omen",
+    "tags": [
+      "control",
+      "mindgame",
+      "clutch"
+    ],
+    "hotWords": [
+      "烟中人",
+      "神秘",
+      "布局",
+      "烟一封，叙利亚吵架局都安静了。"
+    ],
+    "personalityWeights": {
+      "aggressive": 5,
+      "aim": 6,
+      "chaos": 3,
+      "mindgame": 10,
+      "information": 7,
+      "control": 9,
+      "support": 3,
+      "lurk": 9
+    }
+  },
+  {
+    "id": "brimstone",
+    "name": "炼狱",
+    "englishId": "brimstone",
+    "role": "控场",
+    "popularity": 5,
+    "weight": 0.341,
+    "avatar": "/avatars/brimstone.webp",
+    "qAvatar": "/images/agents/brimstone.webp",
+    "keywords": [
+      "稳重",
+      "领导"
+    ],
+    "strength": "越乱越能稳住队伍。",
+    "weakness": "战术讲太长错过买枪时间。",
+    "proJoke": "小肥指挥交通，你是全队导航。",
+    "rankJoke": "三烟一落，队友集体懂你意思。",
+    "shareText": "真正的掌控，是让所有人有路可走。",
+    "rarity": "R",
+    "title": "暗影操盘手",
+    "shareTitle": "我的本命特工是炼狱：暗影操盘手",
+    "teamComment": "队友眼里的炼狱：三烟一落，队友集体懂你意思。",
+    "displayName": "炼狱",
+    "nickname": "老教练",
+    "themeStyle": "riot-core",
+    "englishName": "Brimstone",
+    "tags": [
+      "control",
+      "leader"
+    ],
+    "hotWords": [
+      "老教练",
+      "稳重",
+      "领导",
+      "三烟一落，队友集体懂你意思。"
+    ],
+    "personalityWeights": {
+      "aggressive": 3,
+      "aim": 4,
+      "chaos": 2,
+      "mindgame": 5,
+      "information": 7,
+      "control": 9,
+      "support": 8,
+      "lurk": 2
+    }
+  },
+  {
+    "id": "clove",
+    "name": "暮蝶",
+    "englishId": "clove",
+    "role": "控场",
+    "popularity": 7,
+    "weight": 0.386,
+    "avatar": "/avatars/clove.webp",
+    "qAvatar": "/images/agents/clove.webp",
+    "keywords": [
+      "随性",
+      "韧性"
+    ],
+    "strength": "倒下也不忘继续影响战局。",
+    "weakness": "自信到忘记看小地图。",
+    "proJoke": "马年套没马，但你有第二条命。",
+    "rankJoke": "死了还在指挥，队友服了。",
+    "shareText": "谢幕？不，这是返场。",
+    "rarity": "SR",
+    "title": "暗影操盘手",
+    "shareTitle": "我的本命特工是暮蝶：暗影操盘手",
+    "teamComment": "队友眼里的暮蝶：死了还在指挥，队友服了。",
+    "displayName": "暮蝶",
+    "nickname": "返场王",
+    "themeStyle": "riot-core",
+    "englishName": "Clove",
+    "tags": [
+      "control",
+      "mindgame"
+    ],
+    "hotWords": [
+      "返场王",
+      "随性",
+      "韧性",
+      "死了还在指挥，队友服了。"
+    ],
+    "personalityWeights": {
+      "aggressive": 5,
+      "aim": 6,
+      "chaos": 6,
+      "mindgame": 8,
+      "information": 5,
+      "control": 7,
+      "support": 4,
+      "lurk": 6
+    }
+  },
+  {
+    "id": "astra",
+    "name": "星礈",
+    "englishId": "astra",
+    "role": "控场",
+    "popularity": 4,
+    "weight": 0.29,
+    "avatar": "/avatars/astra.webp",
+    "qAvatar": "/images/agents/astra.webp",
+    "keywords": [
+      "宏观",
+      "创意"
+    ],
+    "strength": "全图都是你的棋盘。",
+    "weakness": "切星界时容易忘记现实。",
+    "proJoke": "科研局天花板，秦王绕柱都能写进战术。",
+    "rankJoke": "星体放得好，下辈子还跟你排。",
+    "shareText": "抬头看，胜局早已写在星图里。",
+    "rarity": "R",
+    "title": "暗影操盘手",
+    "shareTitle": "我的本命特工是星礈：暗影操盘手",
+    "teamComment": "队友眼里的星礈：星体放得好，下辈子还跟你排。",
+    "displayName": "星礈",
+    "nickname": "星界导师",
+    "themeStyle": "riot-core",
+    "englishName": "Astra",
+    "tags": [
+      "control",
+      "leader"
+    ],
+    "hotWords": [
+      "星界导师",
+      "宏观",
+      "创意",
+      "星体放得好，下辈子还跟你排。"
+    ],
+    "personalityWeights": {
+      "aggressive": 2,
+      "aim": 4,
+      "chaos": 4,
+      "mindgame": 8,
+      "information": 9,
+      "control": 10,
+      "support": 7,
+      "lurk": 5
+    }
+  },
+  {
+    "id": "harbor",
+    "name": "海神",
+    "englishId": "harbor",
+    "role": "控场",
+    "popularity": 4,
+    "weight": 0.261,
+    "avatar": "/avatars/harbor.webp",
+    "qAvatar": "/images/agents/harbor.webp",
+    "keywords": [
+      "从容",
+      "保护"
+    ],
+    "strength": "用屏障给队伍创造安全感。",
+    "weakness": "水墙有时把队友也困住。",
+    "proJoke": "空岛卡位堵人？你直接造一片海。",
+    "rankJoke": "这墙是救人还是分割，全看队友理解。",
+    "shareText": "浪潮之后，路径由你决定。",
+    "rarity": "R",
+    "title": "暗影操盘手",
+    "shareTitle": "我的本命特工是海神：暗影操盘手",
+    "teamComment": "队友眼里的海神：这墙是救人还是分割，全看队友理解。",
+    "displayName": "海神",
+    "nickname": "水墙哥",
+    "themeStyle": "riot-core",
+    "englishName": "Harbor",
+    "tags": [
+      "control",
+      "guardian"
+    ],
+    "hotWords": [
+      "水墙哥",
+      "从容",
+      "保护",
+      "这墙是救人还是分割，全看队友理解。"
+    ],
+    "personalityWeights": {
+      "aggressive": 3,
+      "aim": 4,
+      "chaos": 3,
+      "mindgame": 5,
+      "information": 7,
+      "control": 8,
+      "support": 9,
+      "lurk": 3
+    }
+  },
+  {
+    "id": "cypher",
+    "name": "零",
+    "englishId": "cypher",
+    "role": "哨卫",
+    "popularity": 8,
+    "weight": 0.438,
+    "avatar": "/avatars/cypher.webp",
+    "qAvatar": "/images/agents/cypher.webp",
+    "keywords": [
+      "谨慎",
+      "分析"
+    ],
+    "strength": "防守细到令人发指。",
+    "weakness": "摄像头被打掉会短暂沉默。",
+    "proJoke": "那边有人——因为你早就知道。",
+    "rankJoke": "绊线一放，对面开始写检讨。",
+    "shareText": "信息不是优势，是你的本能。",
+    "rarity": "SR",
+    "title": "防线守护者",
+    "shareTitle": "我的本命特工是奇乐：防线守护者",
+    "teamComment": "队友眼里的奇乐：绊线一放，对面开始写检讨。",
+    "displayName": "零",
+    "nickname": "保安",
+    "themeStyle": "riot-core",
+    "englishName": "Cypher",
+    "tags": [
+      "mindgame",
+      "anchor",
+      "guardian"
+    ],
+    "hotWords": [
+      "保安",
+      "谨慎",
+      "分析",
+      "绊线一放，对面开始写检讨。"
+    ],
+    "personalityWeights": {
+      "aggressive": 3,
+      "aim": 5,
+      "chaos": 3,
+      "mindgame": 10,
+      "information": 9,
+      "control": 7,
+      "support": 7,
+      "lurk": 10
+    }
+  },
+  {
+    "id": "killjoy",
+    "name": "奇乐",
+    "englishId": "killjoy",
+    "role": "哨卫",
+    "popularity": 8,
+    "weight": 0.497,
+    "avatar": "/avatars/killjoy.webp",
+    "qAvatar": "/images/agents/killjoy.webp",
+    "keywords": [
+      "创造",
+      "精密"
+    ],
+    "strength": "把混乱变成精密工程。",
+    "weakness": "炮台比你更会选位。",
+    "proJoke": "机械键盘敲起来，科研局开机。",
+    "rankJoke": "锁头一响，对面经济直接 eco 摆烂。",
+    "shareText": "聪明不是小心，是提前准备。",
+    "rarity": "SR",
+    "title": "防线守护者",
+    "shareTitle": "我的本命特工是奇乐：防线守护者",
+    "teamComment": "队友眼里的奇乐：锁头一响，对面经济直接 eco 摆烂。",
+    "displayName": "奇乐",
+    "nickname": "实验室主任",
+    "themeStyle": "riot-core",
+    "englishName": "Killjoy",
+    "tags": [
+      "anchor",
+      "chaos"
+    ],
+    "hotWords": [
+      "实验室主任",
+      "创造",
+      "精密",
+      "锁头一响，对面经济直接 eco 摆烂。"
+    ],
+    "personalityWeights": {
+      "aggressive": 3,
+      "aim": 5,
+      "chaos": 8,
+      "mindgame": 6,
+      "information": 8,
+      "control": 7,
+      "support": 6,
+      "lurk": 8
+    }
+  },
+  {
+    "id": "sage",
+    "name": "贤者",
+    "englishId": "sage",
+    "role": "哨卫",
+    "popularity": 7,
+    "weight": 0.397,
+    "avatar": "/avatars/sage.webp",
+    "qAvatar": "/images/agents/sage.webp",
+    "keywords": [
+      "治愈",
+      "责任"
+    ],
+    "strength": "永远是队伍的定心丸。",
+    "weakness": "救人总比自己活着优先。",
+    "proJoke": "止痛胶？你的冰墙先给队友贴上。",
+    "rankJoke": "复活给谁，是峡谷级难题。",
+    "shareText": "你不是只会救人。你是全队最后的安全感。",
+    "rarity": "SR",
+    "title": "治愈守护者",
+    "shareTitle": "我的本命特工是贤者：治愈守护者",
+    "teamComment": "不一定话最多，但一定是队伍最想保护的人。",
+    "displayName": "贤者",
+    "nickname": "奶妈",
+    "themeStyle": "cute-healer",
+    "englishName": "Sage",
+    "tags": [
+      "guardian",
+      "anchor"
+    ],
+    "hotWords": [
+      "奶妈",
+      "治愈",
+      "责任",
+      "复活给谁，是峡谷级难题。"
+    ],
+    "personalityWeights": {
+      "aggressive": 2,
+      "aim": 4,
+      "chaos": 2,
+      "mindgame": 5,
+      "information": 6,
+      "control": 6,
+      "support": 10,
+      "lurk": 5
+    }
+  },
+  {
+    "id": "chamber",
+    "name": "尚勃勒",
+    "englishId": "chamber",
+    "role": "哨卫",
+    "popularity": 7,
+    "weight": 0.591,
+    "avatar": "/avatars/chamber.webp",
+    "qAvatar": "/images/agents/chamber.webp",
+    "keywords": [
+      "优雅",
+      "精准"
+    ],
+    "strength": "一枪定音，永远有后手。",
+    "weakness": "买枪预算像钱包圣经。",
+    "proJoke": "钱博尔钱包圣经：穷也要优雅。",
+    "rankJoke": "TP一按，人和KD都保住了。",
+    "shareText": "品味和准星一样，绝不妥协。",
+    "rarity": "SR",
+    "title": "防线守护者",
+    "shareTitle": "我的本命特工是钱博尔：防线守护者",
+    "teamComment": "队友眼里的钱博尔：TP一按，人和KD都保住了。",
+    "displayName": "尚勃勒",
+    "nickname": "钱包圣经",
+    "themeStyle": "riot-core",
+    "englishName": "Chamber",
+    "tags": [
+      "anchor",
+      "clutch"
+    ],
+    "hotWords": [
+      "钱包圣经",
+      "优雅",
+      "精准",
+      "TP一按，人和KD都保住了。"
+    ],
+    "personalityWeights": {
+      "aggressive": 5,
+      "aim": 10,
+      "chaos": 3,
+      "mindgame": 7,
+      "information": 5,
+      "control": 4,
+      "support": 2,
+      "lurk": 8
+    }
+  },
+  {
+    "id": "deadlock",
+    "name": "钢锁",
+    "englishId": "deadlock",
+    "role": "哨卫",
+    "popularity": 4,
+    "weight": 0.258,
+    "avatar": "/avatars/deadlock.webp",
+    "qAvatar": "/images/agents/deadlock.webp",
+    "keywords": [
+      "坚毅",
+      "克制"
+    ],
+    "strength": "关键时刻把局面锁死。",
+    "weakness": "预判过度时会锁到空气。",
+    "proJoke": "留一手，你留的是整条防线。",
+    "rankJoke": "网一铺，对面直呼身体不适。",
+    "shareText": "有些界线，一旦划下就不能越过。",
+    "rarity": "R",
+    "title": "防线守护者",
+    "shareTitle": "我的本命特工是零阻：防线守护者",
+    "teamComment": "队友眼里的零阻：网一铺，对面直呼身体不适。",
+    "displayName": "钢锁",
+    "nickname": "锁门姐",
+    "themeStyle": "riot-core",
+    "englishName": "Deadlock",
+    "tags": [
+      "guardian",
+      "anchor"
+    ],
+    "hotWords": [
+      "锁门姐",
+      "坚毅",
+      "克制",
+      "网一铺，对面直呼身体不适。"
+    ],
+    "personalityWeights": {
+      "aggressive": 3,
+      "aim": 5,
+      "chaos": 4,
+      "mindgame": 6,
+      "information": 7,
+      "control": 8,
+      "support": 9,
+      "lurk": 7
+    }
+  },
+  {
+    "id": "vyse",
+    "name": "维什",
+    "englishId": "vyse",
+    "role": "哨卫",
+    "popularity": 5,
+    "weight": 0.372,
+    "avatar": "/avatars/vyse.webp",
+    "qAvatar": "/images/agents/vyse.webp",
+    "keywords": [
+      "冷静",
+      "操控"
+    ],
+    "strength": "擅长把战场切成你的形状。",
+    "weakness": "总想让每一局都完美。",
+    "proJoke": "叙利亚吵架局？先把麦克风也锁了。",
+    "rankJoke": "墙起得很艺术，人也卡得很艺术。",
+    "shareText": "冷静不是退让，是精确的控制。",
+    "rarity": "R",
+    "title": "防线守护者",
+    "shareTitle": "我的本命特工是维什：防线守护者",
+    "teamComment": "队友眼里的维什：墙起得很艺术，人也卡得很艺术。",
+    "displayName": "维什",
+    "nickname": "荆棘女王",
+    "themeStyle": "riot-core",
+    "englishName": "Vyse",
+    "tags": [
+      "anchor",
+      "mindgame"
+    ],
+    "hotWords": [
+      "荆棘女王",
+      "冷静",
+      "操控",
+      "墙起得很艺术，人也卡得很艺术。"
+    ],
+    "personalityWeights": {
+      "aggressive": 4,
+      "aim": 6,
+      "chaos": 6,
+      "mindgame": 8,
+      "information": 6,
+      "control": 8,
+      "support": 5,
+      "lurk": 8
+    }
+  },
+  {
+    "id": "skye",
+    "name": "斯凯",
+    "englishId": "skye",
+    "role": "先锋",
+    "popularity": 7,
+    "weight": 0.323,
+    "avatar": "/avatars/skye.webp",
+    "qAvatar": "/images/agents/skye.webp",
+    "keywords": [
+      "共情",
+      "引导"
+    ],
+    "strength": "总能给队友开出机会。",
+    "weakness": "鸟飞出去，队友还没跟上。",
+    "proJoke": "懂你意思，闪完就该一起冲。",
+    "rankJoke": "狗咬到人，全队瞬间有了自信。",
+    "shareText": "你点亮的，不只是前方视野。",
+    "rarity": "SR",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是斯凯：开团雷达",
+    "teamComment": "队友眼里的斯凯：狗咬到人，全队瞬间有了自信。",
+    "displayName": "斯凯",
+    "nickname": "闪鸟姐",
+    "themeStyle": "riot-core",
+    "englishName": "Skye",
+    "tags": [
+      "intel",
+      "guardian"
+    ],
+    "hotWords": [
+      "闪鸟姐",
+      "共情",
+      "引导",
+      "狗咬到人，全队瞬间有了自信。"
+    ],
+    "personalityWeights": {
+      "aggressive": 4,
+      "aim": 5,
+      "chaos": 3,
+      "mindgame": 5,
+      "information": 8,
+      "control": 5,
+      "support": 10,
+      "lurk": 4
+    }
+  },
+  {
+    "id": "veto",
+    "name": "禁灭",
+    "englishId": "veto",
+    "role": "哨卫",
+    "popularity": 5,
+    "weight": 0.331,
+    "avatar": "/avatars/veto.webp",
+    "qAvatar": "/images/agents/veto.webp",
+    "keywords": [
+      "强硬",
+      "反制"
+    ],
+    "strength": "让对手的技能计划全部失效。",
+    "weakness": "太相信纯枪法能解决一切。",
+    "proJoke": "Nahh，技能被拦了只能拼准星。",
+    "rankJoke": "拦截器一开，对面科研局当场撤稿。",
+    "shareText": "规则是给别人遵守的，你负责改写规则。",
+    "rarity": "R",
+    "title": "防线守护者",
+    "shareTitle": "我的本命特工是维托：防线守护者",
+    "teamComment": "队友眼里的维托：拦截器一开，对面科研局当场撤稿。",
+    "displayName": "禁灭",
+    "nickname": "反制哥",
+    "themeStyle": "riot-core",
+    "englishName": "Veto",
+    "tags": [
+      "anchor",
+      "aggressive"
+    ],
+    "hotWords": [
+      "反制哥",
+      "强硬",
+      "反制",
+      "拦截器一开，对面科研局当场撤稿。"
+    ],
+    "personalityWeights": {
+      "aggressive": 6,
+      "aim": 8,
+      "chaos": 4,
+      "mindgame": 6,
+      "information": 7,
+      "control": 8,
+      "support": 4,
+      "lurk": 7
+    }
+  },
+  {
+    "id": "miks",
+    "name": "迷核",
+    "englishId": "miks",
+    "role": "先锋",
+    "popularity": 4,
+    "weight": 0.243,
+    "avatar": "/avatars/miks.webp",
+    "qAvatar": "/images/agents/miks.webp",
+    "keywords": [
+      "节奏",
+      "协同"
+    ],
+    "strength": "能把全队节奏拉到同一条线上。",
+    "weakness": "偶尔为了配合而过度等待。",
+    "proJoke": "懂你意思，节奏一到全队 Let's Go。",
+    "rankJoke": "不开麦也能听懂你的意图。",
+    "shareText": "最强的高光，是五个人同一秒出手。",
+    "rarity": "R",
+    "title": "开团雷达",
+    "shareTitle": "我的本命特工是米克斯：开团雷达",
+    "teamComment": "队友眼里的米克斯：不开麦也能听懂你的意图。",
+    "displayName": "迷核",
+    "nickname": "节奏大师",
+    "themeStyle": "riot-core",
+    "englishName": "Miks",
+    "tags": [
+      "leader",
+      "teamplay"
+    ],
+    "hotWords": [
+      "节奏大师",
+      "节奏",
+      "协同",
+      "不开麦也能听懂你的意图。"
+    ],
+    "personalityWeights": {
+      "aggressive": 4,
+      "aim": 5,
+      "chaos": 4,
+      "mindgame": 5,
+      "information": 8,
+      "control": 7,
+      "support": 8,
+      "lurk": 4
+    }
+  }
+]

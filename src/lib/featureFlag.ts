@@ -1,0 +1,2 @@
+import appConfig from "@/config/appConfig.json";
+export const featureConfig = { ads: process.env.NEXT_PUBLIC_ADS_ENABLED === "true" || appConfig.adsEnabled, payments: process.env.NEXT_PUBLIC_PAYMENTS_ENABLED === "true" || appConfig.premiumEnabled, aiAnalysis: process.env.NEXT_PUBLIC_AI_ANALYSIS_ENABLED === "true", newAgents: appConfig.newAgentEnabled, share: appConfig.shareEnabled, resultVersion: appConfig.resultVersion } as const;

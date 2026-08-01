@@ -1,0 +1,423 @@
+[
+  {
+    "id": 1,
+    "question": "光幕落下，手枪局开始，你第一反应？",
+    "sideText": "手枪局 · 第一身位",
+    "options": [
+      {
+        "text": "“Let's Go！”第一身位找人换枪。",
+        "comment": "枪硬就该先把节奏抢下来。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 6,
+          "mindgame": 1,
+          "lurk": 2
+        }
+      },
+      {
+        "text": "先探信息，再决定怎么进。",
+        "comment": "信息到手，回合才刚开始。",
+        "dimensions": {
+          "information": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "“别急，默认一下。”慢慢控制地图。",
+        "comment": "默认不是怂，是让对面先露底。",
+        "dimensions": {
+          "control": 5,
+          "information": 2
+        }
+      },
+      {
+        "text": "先布置防绕后，再看正面。",
+        "comment": "后路不干净，正面再热闹也不进。",
+        "dimensions": {
+          "support": 2,
+          "lurk": 3,
+          "control": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "队友只喊：“有人！有人！”你第一反应？",
+    "sideText": "模糊报点 · 那边有人",
+    "options": [
+      {
+        "text": "“哪里？脸上？屁股？上面？”",
+        "comment": "先把报点翻译成人话。",
+        "dimensions": {
+          "information": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "直接冲过去处理。",
+        "comment": "位置不重要，人还在就行。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 2
+        }
+      },
+      {
+        "text": "先封视野，逼他换位置。",
+        "comment": "烟一落，问题就少一半。",
+        "dimensions": {
+          "control": 5,
+          "information": 2
+        }
+      },
+      {
+        "text": "回头看屁股，防止被绕。",
+        "comment": "那边有人可以，后面不能也有人。",
+        "dimensions": {
+          "support": 7,
+          "lurk": 3,
+          "control": 1,
+          "information": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "队友连续空枪开始沉默，你怎么办？",
+    "sideText": "排位情绪管理 · 躯体化",
+    "options": [
+      {
+        "text": "“我来C，下一波我带。”",
+        "comment": "关键时刻先把麦接过来。",
+        "dimensions": {
+          "support": 2,
+          "information": 3,
+          "control": 2,
+          "aggressive": 5,
+          "aim": 2
+        }
+      },
+      {
+        "text": "帮他创造一个舒服的输出环境。",
+        "comment": "枪会抖，环境不能乱。",
+        "dimensions": {
+          "support": 9,
+          "information": 3
+        }
+      },
+      {
+        "text": "重新安排打法，先拿一分止血。",
+        "comment": "科研局暂停，执行局启动。",
+        "dimensions": {
+          "support": 2,
+          "information": 5,
+          "control": 7
+        }
+      },
+      {
+        "text": "自己调整节奏，等对面先犯错。",
+        "comment": "沉默不是摆烂，是在读下一页剧本。",
+        "dimensions": {
+          "mindgame": 5,
+          "lurk": 3,
+          "information": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "残局 1V2，耳机里只剩脚步。",
+    "sideText": "关键残局 · 心跳测试",
+    "options": [
+      {
+        "text": "直接找一个秒掉，拆成两个1V1。",
+        "comment": "残局的礼貌，是不给对面一起出现的机会。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "用技能逼位置，再决定怎么打。",
+        "comment": "先知道在哪里，再决定怎么帅。",
+        "dimensions": {
+          "information": 5,
+          "mindgame": 2,
+          "aim": 3
+        }
+      },
+      {
+        "text": "换位置骗脚步，等他自己露破绽。",
+        "comment": "你走的不是路，是对面的心理盲区。",
+        "dimensions": {
+          "mindgame": 6,
+          "lurk": 3,
+          "information": 1,
+          "aim": 3
+        }
+      },
+      {
+        "text": "拖时间，等对面着急。",
+        "comment": "急的是他们，不是你。",
+        "dimensions": {
+          "control": 5,
+          "information": 2,
+          "aim": 3,
+          "mindgame": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "连输两把，经济爆炸。",
+    "sideText": "经济局 · eco摆烂",
+    "options": [
+      {
+        "text": "eco 也能赢，正义秒大狙。",
+        "comment": "经济局的尽头，是一把正义和一段集锦。",
+        "dimensions": {
+          "chaos": 5,
+          "aggressive": 7,
+          "aim": 2
+        }
+      },
+      {
+        "text": "小枪配技能，找一个翻盘机会。",
+        "comment": "技能比钱包先有想法。",
+        "dimensions": {
+          "information": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "存钱，下一回合起大。",
+        "comment": "钱包健康，心态才健康。",
+        "dimensions": {
+          "control": 5,
+          "information": 2
+        }
+      },
+      {
+        "text": "保枪，别让局面更糟。",
+        "comment": "这不是跑，是资产保全。",
+        "dimensions": {
+          "support": 2,
+          "lurk": 3,
+          "control": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "对面尚勃勒架住枪线。",
+    "sideText": "钱包圣经 · 架点处理",
+    "options": [
+      {
+        "text": "直接挑战他的枪线。",
+        "comment": "他的枪很贵，你的自信也不便宜。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "骗掉技能，再处理他。",
+        "comment": "先骗后打，才是成熟的排位玩家。",
+        "dimensions": {
+          "information": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "封烟限制他的视野。",
+        "comment": "准星再硬，也硬不过一堵好烟。",
+        "dimensions": {
+          "control": 5,
+          "information": 2
+        }
+      },
+      {
+        "text": "绕开他的防区，让他自己空架。",
+        "comment": "不和他比枪，和他比理解。",
+        "dimensions": {
+          "mindgame": 5,
+          "lurk": 3,
+          "information": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "队内开始叙利亚吵架局。",
+    "sideText": "队内叙利亚 · 麦克风爆炸",
+    "options": [
+      {
+        "text": "“别吵，看我操作。”",
+        "comment": "操作是最有说服力的静音键。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 2
+        }
+      },
+      {
+        "text": "重新安排战术，把注意力拉回来。",
+        "comment": "先别辩论，下一回合怎么打？",
+        "dimensions": {
+          "support": 2,
+          "information": 3,
+          "control": 2
+        }
+      },
+      {
+        "text": "安慰队友，别让他彻底红温。",
+        "comment": "你是队里的情绪止痛胶。",
+        "dimensions": {
+          "support": 5,
+          "information": 1
+        }
+      },
+      {
+        "text": "关闭麦克风，自己读局。",
+        "comment": "世界安静后，脚步声会说真话。",
+        "dimensions": {
+          "mindgame": 5,
+          "lurk": 3,
+          "information": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "关键大招好了，你会？",
+    "sideText": "大招管理 · 留一手",
+    "options": [
+      {
+        "text": "马上开，创造机会。",
+        "comment": "大招攥着不用，和皮肤不装一样难受。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 2
+        }
+      },
+      {
+        "text": "配合队友打一波完整进攻。",
+        "comment": "好大招要配五个人的默契。",
+        "dimensions": {
+          "support": 6,
+          "information": 5,
+          "control": 2
+        }
+      },
+      {
+        "text": "留到关键残局再交。",
+        "comment": "留一手，不是舍不得，是等最值的那一秒。",
+        "dimensions": {
+          "mindgame": 6,
+          "lurk": 3,
+          "information": 1,
+          "aim": 3
+        }
+      },
+      {
+        "text": "控节奏，等对面先露信息。",
+        "comment": "大招不是按钮，是回合的遥控器。",
+        "dimensions": {
+          "control": 5,
+          "information": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "你看到一个残血敌人。",
+    "sideText": "追猎上头 · 诱惑测试",
+    "options": [
+      {
+        "text": "追！",
+        "comment": "残血不追，晚上睡不着。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 2
+        }
+      },
+      {
+        "text": "叫队友一起压，别给他单挑。",
+        "comment": "能二打一，为什么要给他高光？",
+        "dimensions": {
+          "support": 9,
+          "information": 3
+        }
+      },
+      {
+        "text": "等他自己犯错。",
+        "comment": "你知道残血最爱回头看。",
+        "dimensions": {
+          "mindgame": 5,
+          "lurk": 3,
+          "information": 1
+        }
+      },
+      {
+        "text": "先控制区域，再收人。",
+        "comment": "人可以跑，地图不能丢。",
+        "dimensions": {
+          "control": 5,
+          "information": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "别人评价你的排位风格：",
+    "sideText": "最终人格 · 队友真心话",
+    "options": [
+      {
+        "text": "“这人枪硬，敢打。”",
+        "comment": "你不是冲动，是对准星有信仰。",
+        "dimensions": {
+          "aggressive": 5,
+          "aim": 5,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "“跟他一起玩很舒服。”",
+        "comment": "你在，队友就敢放心打。",
+        "dimensions": {
+          "support": 9,
+          "information": 3
+        }
+      },
+      {
+        "text": "“他总知道下一步。”",
+        "comment": "小地图在你脑子里开了高帧。",
+        "dimensions": {
+          "support": 2,
+          "information": 8,
+          "control": 2,
+          "mindgame": 1
+        }
+      },
+      {
+        "text": "“永远猜不到他在哪。”",
+        "comment": "你不在角落，你在对手的噩梦里。",
+        "dimensions": {
+          "mindgame": 5,
+          "lurk": 3,
+          "information": 1
+        }
+      }
+    ]
+  }
+]
+

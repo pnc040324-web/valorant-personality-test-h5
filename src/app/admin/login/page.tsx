@@ -1,0 +1,3 @@
+export default function AdminLoginPage() {
+  return <main className="app-shell grid place-items-center p-5"><form action="/api/admin/login" method="post" className="esport-card w-full max-w-sm border border-white/10 bg-[#14202c] p-6"><p className="text-xs font-bold tracking-[.2em] text-riot">BETA ADMIN</p><h1 className="mt-2 text-xl font-bold">管理员验证</h1><input name="secret" type="password" required autoComplete="current-password" placeholder="ADMIN_SECRET" className="mt-5 w-full border border-white/15 bg-black/20 px-3 py-3 text-white outline-none focus:border-riot"/><button className="clip mt-4 w-full bg-riot py-3 font-bold">进入数据概览</button></form></main>;
+}
