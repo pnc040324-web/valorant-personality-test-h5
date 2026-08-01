@@ -4,7 +4,7 @@ import { spawnSync } from "node:child_process";
 // connect to it. This keeps preview/Beta deployments available before a
 // production database has been provisioned.
 const databaseUrl =
-  process.env.DATABASE_URL ??
+  process.env.DATABASE_URL?.trim() ||
   "postgresql://placeholder:placeholder@localhost:5432/placeholder?schema=public";
 
 const prismaBinary = process.platform === "win32" ? "prisma.cmd" : "prisma";
